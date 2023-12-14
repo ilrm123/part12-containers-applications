@@ -1,0 +1,39 @@
+Script started on 2023-12-14 17:55:34+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="100" LINES="50"]
+[?2004h]0;ilarimat@lx0-fuxi136: ~/part12-containers-applications/script-answers[01;32milarimat@lx0-fuxi136[00m:[01;34m~/part12-containers-applications/script-answers[00m$ exitsudo docker container run hello-world
+[?2004l[sudo] password for ilarimat: 
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+[?2004h]0;ilarimat@lx0-fuxi136: ~/part12-containers-applications/script-answers[01;32milarimat@lx0-fuxi136[00m:[01;34m~/part12-containers-applications/script-answers[00m$ sudo o[Kdocker run -it ubuntu bas h
+[?2004lUnable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K5e8117c0bd28: Pulling fs layer [1B[1A[2K5e8117c0bd28: Downloading  311.3kB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  1.535MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  2.767MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  4.008MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  5.249MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  6.495MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  7.727MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  8.969MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  10.21MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  11.45MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading   12.7MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  13.95MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  15.19MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  16.42MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  17.67MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  18.91MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  20.15MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading   21.4MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  22.64MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  23.89MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  25.13MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  26.36MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  27.61MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  28.85MB/29.55MB[1B[1A[2K5e8117c0bd28: Downloading  29.46MB/29.55MB[1B[1A[2K5e8117c0bd28: Verifying Checksum [1B[1A[2K5e8117c0bd28: Download complete [1B[1A[2K5e8117c0bd28: Extracting  327.7kB/29.55MB[1B[1A[2K5e8117c0bd28: Extracting  1.966MB/29.55MB[1B[1A[2K5e8117c0bd28: Extracting  3.932MB/29.55MB[1B[1A[2K5e8117c0bd28: Extracting  5.571MB/29.55MB[1B[1A[2K5e8117c0bd28: Extracting  7.209MB/29.55MB[1B[1A[2K5e8117c0bd28: Extracting  8.192MB/29.55MB[1B[1A[2K5e8117c0bd28: Extracting  9.503MB/29.55MB[1B[1A[2K5e8117c0bd28: Extracting  11.14MB/29.55MB[1B[1A[2K5e8117c0bd28: Extracting  13.43MB/29.55MB[1B[1A[2K5e8117c0bd28: Extracting  15.73MB/29.55MB[1B[1A[2K5e8117c0bd28: Extracting  18.02MB/29.55MB[1B[1A[2K5e8117c0bd28: Extracting  22.28MB/29.55MB[1B[1A[2K5e8117c0bd28: Extracting  25.56MB/29.55MB[1B[1A[2K5e8117c0bd28: Extracting  25.89MB/29.55MB[1B[1A[2K5e8117c0bd28: Extracting  27.53MB/29.55MB[1B[1A[2K5e8117c0bd28: Extracting  28.18MB/29.55MB[1B[1A[2K5e8117c0bd28: Extracting  29.16MB/29.55MB[1B[1A[2K5e8117c0bd28: Extracting  29.49MB/29.55MB[1B[1A[2K5e8117c0bd28: Extracting  29.55MB/29.55MB[1B[1A[2K5e8117c0bd28: Pull complete [1BDigest: sha256:8eab65df33a6de2844c9aefd19efe8ddb87b7df5e9185a4ab73af936225685bb
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@8f912ca8103b: /root@8f912ca8103b:/# mkdir /usr/src/app
+[?2004l[?2004h]0;root@8f912ca8103b: /root@8f912ca8103b:/# touch usr   /usr/src/aoo/inde       pp/indexj.  .js
+[?2004l[?2004h]0;root@8f912ca8103b: /root@8f912ca8103b:/# [Kexit
+[?2004lexit
+[?2004h]0;ilarimat@lx0-fuxi136: ~/part12-containers-applications/script-answers[01;32milarimat@lx0-fuxi136[00m:[01;34m~/part12-containers-applications/script-answers[00m$ exit
+[?2004lexit
+
+Script done on 2023-12-14 17:57:02+02:00 [COMMAND_EXIT_CODE="0"]
